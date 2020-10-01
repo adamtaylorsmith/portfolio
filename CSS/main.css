@@ -1,3 +1,143 @@
+@import "variables.css";
+@import "navbar.css";
+
+:root {
+    --red: #e80d0d;
+    --dkred: #972D3B;
+    --blue: #1D3EC7;
+    --bluegreen: #165F7E;
+    --dkbluegreen: #163755;
+    --orange: #f98500;
+    --green: #2C9A43;
+    --yellow: #F9FC38;
+    --black: #080807;
+    --grey: #EFEFEE;
+    --font-one: font-family: 'Roboto', sans-serif;
+}
+.nav {
+    background-color: #eee2dc;
+}
+.myNav {
+    color: var(--green);
+    font-weight: 800;
+    font-size: 1.1em;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#myNavRed {
+    color: var(--dkred);
+}
+#myNavBlue {
+    color: var(--blue);
+}
+#myNavBg {
+    color: var(--dkbluegreen);
+}
+
+/* HEADER */
+#newHead {
+    color: black;
+    font-weight: 900;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 10px;
+}
+#phead {
+    margin: 10px 60px 20px 60px;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+}
+/* BODY */
 body {
-    background-color: grey;
+    background: #eee2dc;
+    font-family: var(--font-one);
+    font-size: 22px;
+    
+}
+.skillsHead {
+    text-align: center;
+    font-weight: 600;
+}
+.skillSet {
+    font-size: .9em;
+}
+.cardstyle {
+    font-size: 1em;
+}
+.bold {
+    font-weight: 600;
+}
+#projectHead {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+#nine11 {
+    float: right;
+    width: 400px;
+}
+#floaty {
+    float: left;
+}
+#floatsy {
+    float: right;
+}
+#hop {
+    float: left;
+    width: 600px;
+}
+#chef {
+    float: left;
+    width: 250px;
+}
+#decath {
+    float: right;
+    width: 450px;
+}
+li {
+    list-style: none;
+    list-style-type: none;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    font-size: 19px;
+    padding: 0 20px;
+}
+h5 {
+    font-weight: 700;
+    color: black;
+}
+.stripe {
+    width: 80vw;
+    align-content: center;
+}
+.stripe2 {
+    margin-top: 5px;
+    width: 99vw;
+
+}
+
+#hero {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.margstop {
+    margin-top 155px;
+}
+.heavy {
+    font-weight: 900;
+    color: white;
+}
+/* FOOTER */
+footer {
+    margin-top: 2em;
+    padding: .5em;
+    height: 10vh;
 }
