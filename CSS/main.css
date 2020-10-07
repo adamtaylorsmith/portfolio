@@ -1,6 +1,5 @@
 @import "variables.css";
 @import "navbar.css";
-
 :root {
     --red: #e80d0d;
     --dkred: #972D3B;
@@ -14,130 +13,191 @@
     --grey: #EFEFEE;
     --font-one: font-family: 'Roboto', sans-serif;
 }
-.nav {
-    background-color: #eee2dc;
-}
-.myNav {
-    color: var(--green);
-    font-weight: 800;
-    font-size: 1.1em;
-    padding-top: 25px;
-    padding-bottom: 10px;
-}
-#myNavRed {
-    color: var(--dkred);
-}
-#myNavBlue {
-    color: var(--blue);
-}
-#myNavBg {
-    color: var(--dkbluegreen);
-}
-
-/* HEADER */
-#newHead {
-    color: black;
-    font-weight: 900;
-    font-size: 3em;
-    text-align: center;
-    margin-top: 10px;
-}
-#phead {
-    margin: 10px 60px 20px 60px;
-    color: black;
-    font-weight: 600;
-    font-size: 1.2em;
-    text-align: center;
-    padding: 10px;
-}
-/* BODY */
+/* *************************/
+/* ********************** BODY */
 body {
-    background: #eee2dc;
+    /* background: #eee2dc; #98A5B3*/
+    background: #f9f5f3;
     font-family: var(--font-one);
-    font-size: 22px;
-    
-}
-.skillsHead {
-    text-align: center;
-    font-weight: 600;
-}
-.skillSet {
-    font-size: .9em;
-}
-.cardstyle {
-    font-size: 1em;
-}
-.bold {
-    font-weight: 600;
-}
-#projectHead {
-    font-size: 2em;
-    font-weight: 600;
-    text-align: center;
-}
-#nine11 {
-    float: right;
-    width: 400px;
-}
-#floaty {
-    float: left;
-}
-#floatsy {
-    float: right;
-}
-#hop {
-    float: left;
-    width: 600px;
-}
-#chef {
-    float: left;
-    width: 250px;
-}
-#decath {
-    float: right;
-    width: 450px;
-}
-li {
-    list-style: none;
-    list-style-type: none;
+    font-size: 20px;  
+    color: #444444;
+    letter-spacing: .02em;
 }
 .center {
     display: flex;
     justify-content: center;
 }
-.content {
-    font-size: 19px;
-    padding: 0 20px;
+li {
+    list-style: none;
+    list-style-type: none;
+    color: #444444;
 }
-h5 {
-    font-weight: 700;
-    color: black;
+.sectionHead {
+    font-weight: 800;
+    text-align: center;
 }
 .stripe {
     width: 80vw;
     align-content: center;
 }
-.stripe2 {
-    margin-top: 5px;
-    width: 99vw;
-
+/* **************** 1st VH */
+.nav {
+    background-color: #f9f5f3;
 }
-
-#hero {
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
+.myNav {
+    font-weight: 800;
+    font-size: 1.1em;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    color: #444444;
 }
-.margstop {
-    margin-top 155px;
+.myNav:hover {
+    text-decoration: underline;
+    color: #444444;
 }
-.heavy {
+.myNavGreen {
+    color: forestgreen;
+}
+.myNavRed {
+    color: red;
+}
+.myNavBlue {
+    color: var(--blue);
+}
+.myNavBg {
+    color: darkorange;
+}
+#envel {
+    margin-top: 25px;
+}
+#newHead {
+    /* color: #35393e; */
+    color: #444444;
     font-weight: 900;
-    color: white;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 20px;
 }
-/* FOOTER */
-footer {
-    margin-top: 2em;
-    padding: .5em;
-    height: 10vh;
+#phead {
+    margin: 10px 60px 20px 60px;
+    color: #444444;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+/*********************** Skills */
+.outline {
+    border: 1px lightgrey solid;
+}
+.skillSet {
+    font-size: .85em;
+}
+.skillsHead {
+    text-align: center;
+    font-weight: 600;
+}
+/*********************** Projects */
+.cardstyle {
+    font-size: .9em;
+    width: 99%;
+    padding: 0 25px 10px 25px;
+}
+.bold {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.white {
+    background-color: white;
+}
+.anchor {
+    color: #444444;
+}
+.anchor:hover {
+    text-decoration: underline;
+    color: #444444;
+}
+.cardtexty {
+    font-size: .9em;
+}
+#carddecath {
+    font-size: .9em;
+    padding: 0 15px;
+}
+/*********************** Employment */
+.historyP {
+    font-size: .9em;
+}
+#historyTitle {
+    text-align: center;
+    font-weight: 600;
+}
+.td {
+    font-size: .9em;
+}
+.th {
+    font-weight: 600;
+}
+/*********************** Biography */
+.content {
+    font-size: 19px;
+    padding: 0 20px;
+}
+#biohead {
+    text-align: center;
+}
+.bioheads {
+    font-weight: 600;
+}
+#decath {
+    float: right;
+    width: 450px;
+}
+.floatsy {
+    float: right;
+}
+.floaty {
+    float: left;
+}
+#firstave {
+    padding: 10px 0 0 5px;
+}
+#hop {
+    width: 200px;
+}
+#nine11 {
+    padding: 10px 0 0 5px;
+    width: 200px;
+}
+#chef {
+    padding: 0 0 25px 0;
+    width: 150px;
+}
+#bar {
+    padding: 10px 0 0 5px;
+    width: 200px;
+}
+#extra {
+    padding: 0 0 15px 0;
+}
+/*********************** FOOTER */
+label {
+    font-weight: 600;
+}
+input {
+    width: 150%;
+}
+textarea {
+    width: 225%;
+}
+.footer {
+    text-align: center;
+}
+#colorme {
+    color: #444444;
+    font-weight: 600;
+}
+.padit {
+    padding-left: 50px;
 }
